@@ -1,0 +1,352 @@
+[
+  {
+    "pedido_id": "12345",
+    "status": "Em trânsito",
+    "produtos": [
+      {
+        "id": "PROD001",
+        "nome": "Notebook Dell Inspiron 15 3000",
+        "quantidade": 1,
+        "preco_unitario": 2899.99
+      }
+    ],
+    "data_compra": "2024-01-15",
+    "data_envio": "2024-01-16",
+    "previsao_entrega": "2024-01-20",
+    "valor_total": 2899.99,
+    "frete": 0.00,
+    "forma_pagamento": "Cartão de crédito",
+    "endereco_entrega": {
+      "rua": "Rua das Flores, 123",
+      "bairro": "Centro",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "cep": "01234-567"
+    },
+    "codigo_rastreamento": "BR123456789SP",
+    "transportadora": "Correios",
+    "cliente": {
+      "nome": "João Silva",
+      "email": "joao.silva@email.com",
+      "telefone": "(11) 99999-9999"
+    }
+  },
+  {
+    "pedido_id": "12346",
+    "status": "Entregue",
+    "produtos": [
+      {
+        "id": "PROD002",
+        "nome": "Smartphone Samsung Galaxy A54 5G",
+        "quantidade": 1,
+        "preco_unitario": 1499.99
+      },
+      {
+        "id": "PROD011",
+        "nome": "Fone de Ouvido JBL Tune 510BT",
+        "quantidade": 1,
+        "preco_unitario": 189.99
+      }
+    ],
+    "data_compra": "2024-01-10",
+    "data_envio": "2024-01-11",
+    "data_entrega": "2024-01-14",
+    "previsao_entrega": "2024-01-15",
+    "valor_total": 1689.98,
+    "frete": 15.90,
+    "forma_pagamento": "PIX",
+    "endereco_entrega": {
+      "rua": "Av. Paulista, 1000",
+      "bairro": "Bela Vista",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "cep": "01310-100"
+    },
+    "codigo_rastreamento": "BR987654321SP",
+    "transportadora": "Loggi",
+    "cliente": {
+      "nome": "Maria Santos",
+      "email": "maria.santos@email.com",
+      "telefone": "(11) 88888-8888"
+    }
+  },
+  {
+    "pedido_id": "12347",
+    "status": "Preparando envio",
+    "produtos": [
+      {
+        "id": "PROD007",
+        "nome": "Kit Panelas Antiaderente 5 Peças",
+        "quantidade": 1,
+        "preco_unitario": 199.99
+      },
+      {
+        "id": "PROD006",
+        "nome": "Cafeteira Elétrica Philco PH16",
+        "quantidade": 1,
+        "preco_unitario": 89.99
+      },
+      {
+        "id": "PROD015",
+        "nome": "Air Fryer Mondial 4L",
+        "quantidade": 1,
+        "preco_unitario": 259.99
+      }
+    ],
+    "data_compra": "2024-01-18",
+    "previsao_entrega": "2024-01-25",
+    "valor_total": 549.97,
+    "frete": 25.00,
+    "forma_pagamento": "Cartão de débito",
+    "endereco_entrega": {
+      "rua": "Rua da Paz, 456",
+      "bairro": "Vila Madalena",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "cep": "05433-000"
+    },
+    "cliente": {
+      "nome": "Carlos Oliveira",
+      "email": "carlos.oliveira@email.com",
+      "telefone": "(11) 77777-7777"
+    }
+  },
+  {
+    "pedido_id": "12348",
+    "status": "Cancelado",
+    "produtos": [
+      {
+        "id": "PROD013",
+        "nome": "Notebook Gamer Acer Nitro 5",
+        "quantidade": 1,
+        "preco_unitario": 4999.99
+      }
+    ],
+    "data_compra": "2024-01-12",
+    "data_cancelamento": "2024-01-13",
+    "motivo_cancelamento": "Produto indisponível",
+    "valor_total": 4999.99,
+    "frete": 0.00,
+    "forma_pagamento": "Cartão de crédito",
+    "status_estorno": "Processando",
+    "previsao_estorno": "2024-01-20",
+    "cliente": {
+      "nome": "Ana Costa",
+      "email": "ana.costa@email.com",
+      "telefone": "(11) 66666-6666"
+    }
+  },
+  {
+    "pedido_id": "12349",
+    "status": "Aguardando pagamento",
+    "produtos": [
+      {
+        "id": "PROD004",
+        "nome": "Smart TV LG 55' 4K UHD",
+        "quantidade": 1,
+        "preco_unitario": 2199.99
+      }
+    ],
+    "data_compra": "2024-01-19",
+    "valor_total": 2199.99,
+    "frete": 50.00,
+    "forma_pagamento": "Boleto bancário",
+    "vencimento_boleto": "2024-01-22",
+    "endereco_entrega": {
+      "rua": "Rua das Acácias, 789",
+      "bairro": "Jardins",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "cep": "01234-890"
+    },
+    "cliente": {
+      "nome": "Pedro Rodrigues",
+      "email": "pedro.rodrigues@email.com",
+      "telefone": "(11) 55555-5555"
+    }
+  },
+  {
+    "pedido_id": "12350",
+    "status": "Entregue",
+    "produtos": [
+      {
+        "id": "PROD005",
+        "nome": "Tênis Nike Air Max SC",
+        "quantidade": 2,
+        "preco_unitario": 299.99
+      },
+      {
+        "id": "PROD010",
+        "nome": "Camiseta Básica Cotton",
+        "quantidade": 3,
+        "preco_unitario": 39.99
+      }
+    ],
+    "data_compra": "2024-01-08",
+    "data_envio": "2024-01-09",
+    "data_entrega": "2024-01-12",
+    "previsao_entrega": "2024-01-13",
+    "valor_total": 719.95,
+    "frete": 20.00,
+    "forma_pagamento": "PIX",
+    "endereco_entrega": {
+      "rua": "Rua do Esporte, 321",
+      "bairro": "Moema",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "cep": "04567-123"
+    },
+    "codigo_rastreamento": "BR456789123SP",
+    "transportadora": "Total Express",
+    "avaliacao": {
+      "nota": 5,
+      "comentario": "Produtos chegaram perfeitos e no prazo!"
+    },
+    "cliente": {
+      "nome": "Luciana Mendes",
+      "email": "luciana.mendes@email.com",
+      "telefone": "(11) 44444-4444"
+    }
+  },
+  {
+    "pedido_id": "12351",
+    "status": "Em trânsito",
+    "produtos": [
+      {
+        "id": "PROD012",
+        "nome": "Mouse Gamer Logitech G203",
+        "quantidade": 1,
+        "preco_unitario": 149.99
+      },
+      {
+        "id": "PROD014",
+        "nome": "Livro 'Clean Code' - Robert Martin",
+        "quantidade": 1,
+        "preco_unitario": 89.99
+      }
+    ],
+    "data_compra": "2024-01-17",
+    "data_envio": "2024-01-18",
+    "previsao_entrega": "2024-01-22",
+    "valor_total": 239.98,
+    "frete": 12.50,
+    "forma_pagamento": "Cartão de crédito",
+    "endereco_entrega": {
+      "rua": "Av. Faria Lima, 1500",
+      "bairro": "Itaim Bibi",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "cep": "04538-132"
+    },
+    "codigo_rastreamento": "BR789123456SP",
+    "transportadora": "Mercado Envios",
+    "cliente": {
+      "nome": "Ricardo Alves",
+      "email": "ricardo.alves@email.com",
+      "telefone": "(11) 33333-3333"
+    }
+  },
+  {
+    "pedido_id": "12352",
+    "status": "Processando",
+    "produtos": [
+      {
+        "id": "PROD008",
+        "nome": "Micro-ondas Electrolux 20L",
+        "quantidade": 1,
+        "preco_unitario": 459.99
+      }
+    ],
+    "data_compra": "2024-01-19",
+    "previsao_entrega": "2024-01-26",
+    "valor_total": 459.99,
+    "frete": 30.00,
+    "forma_pagamento": "Cartão de crédito (3x)",
+    "endereco_entrega": {
+      "rua": "Rua dos Eletrodomésticos, 100",
+      "bairro": "Santana",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "cep": "02020-000"
+    },
+    "cliente": {
+      "nome": "Fernanda Lima",
+      "email": "fernanda.lima@email.com",
+      "telefone": "(11) 22222-2222"
+    }
+  },
+  {
+    "pedido_id": "12353",
+    "status": "Entregue",
+    "produtos": [
+      {
+        "id": "PROD009",
+        "nome": "Bicicleta MTB Caloi Aro 29",
+        "quantidade": 1,
+        "preco_unitario": 899.99
+      }
+    ],
+    "data_compra": "2024-01-05",
+    "data_envio": "2024-01-06",
+    "data_entrega": "2024-01-10",
+    "previsao_entrega": "2024-01-12",
+    "valor_total": 899.99,
+    "frete": 0.00,
+    "forma_pagamento": "PIX",
+    "endereco_entrega": {
+      "rua": "Av. dos Ciclistas, 500",
+      "bairro": "Ibirapuera",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "cep": "04029-000"
+    },
+    "codigo_rastreamento": "BR321654987SP",
+    "transportadora": "Transportes Especiais",
+    "avaliacao": {
+      "nota": 4,
+      "comentario": "Bicicleta excelente, chegou bem embalada!"
+    },
+    "cliente": {
+      "nome": "Gabriel Santos",
+      "email": "gabriel.santos@email.com",
+      "telefone": "(11) 11111-1111"
+    }
+  },
+  {
+    "pedido_id": "12354",
+    "status": "Problema na entrega",
+    "produtos": [
+      {
+        "id": "PROD003",
+        "nome": "iPhone 13 128GB",
+        "quantidade": 1,
+        "preco_unitario": 4299.99
+      }
+    ],
+    "data_compra": "2024-01-16",
+    "data_envio": "2024-01-17",
+    "previsao_entrega": "2024-01-20",
+    "tentativas_entrega": 2,
+    "ultimo_status": "Destinatário ausente",
+    "data_ultima_tentativa": "2024-01-20",
+    "proxima_tentativa": "2024-01-22",
+    "valor_total": 4299.99,
+    "frete": 0.00,
+    "forma_pagamento": "Cartão de crédito",
+    "endereco_entrega": {
+      "rua": "Rua Premium, 999",
+      "bairro": "Higienópolis",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "cep": "01238-010"
+    },
+    "codigo_rastreamento": "BR654987321SP",
+    "transportadora": "Correios",
+    "observacoes": "Cliente pode retirar no ponto de coleta ou reagendar entrega",
+    "cliente": {
+      "nome": "Beatriz Ferreira",
+      "email": "beatriz.ferreira@email.com",
+      "telefone": "(11) 99999-0000"
+    }
+  }
+] 

@@ -1,0 +1,427 @@
+[
+  {
+    "id": "PROD001",
+    "nome": "Notebook Dell Inspiron 15 3000",
+    "categoria": "Eletrônicos",
+    "preco": 2899.99,
+    "descricao": "Notebook ideal para trabalho e estudos com performance equilibrada. Processador Intel Core i5, 8GB de RAM e SSD de 256GB garantem velocidade e eficiência para o dia a dia.",
+    "especificacoes": {
+      "tela": "15.6 polegadas Full HD",
+      "processador": "Intel Core i5-1135G7",
+      "memoria": "8GB DDR4",
+      "armazenamento": "256GB SSD",
+      "placa_video": "Intel Iris Xe Graphics",
+      "sistema": "Windows 11 Home",
+      "peso": "1.83kg"
+    },
+    "caracteristicas": [
+      "para programar",
+      "tela grande",
+      "leve",
+      "ssd rapido"
+    ],
+    "disponivel": true,
+    "avaliacao": 4.3,
+    "marca": "Dell"
+  },
+  {
+    "id": "PROD002",
+    "nome": "Smartphone Samsung Galaxy A54 5G",
+    "categoria": "Eletrônicos",
+    "preco": 1499.99,
+    "descricao": "Smartphone com excelente custo-benefício, tela Super AMOLED de 6.4', câmera tripla de 50MP e bateria de 5000mAh. Ideal para fotos, vídeos e uso diário.",
+    "especificacoes": {
+      "tela": "6.4 polegadas Super AMOLED",
+      "processador": "Exynos 1380",
+      "memoria": "128GB + 6GB RAM",
+      "camera": "Tripla 50MP + 12MP + 5MP",
+      "bateria": "5000mAh",
+      "sistema": "Android 13",
+      "conectividade": "5G"
+    },
+    "caracteristicas": [
+      "android",
+      "tela grande",
+      "camera boa",
+      "bateria duradoura",
+      "5g"
+    ],
+    "disponivel": true,
+    "avaliacao": 4.5,
+    "marca": "Samsung"
+  },
+  {
+    "id": "PROD003",
+    "nome": "iPhone 13 128GB",
+    "categoria": "Eletrônicos",
+    "preco": 4299.99,
+    "descricao": "iPhone 13 com chip A15 Bionic, sistema de câmera dupla avançado e tela Super Retina XDR. Performance excepcional e qualidade premium da Apple.",
+    "especificacoes": {
+      "tela": "6.1 polegadas Super Retina XDR",
+      "processador": "A15 Bionic",
+      "memoria": "128GB",
+      "camera": "Dupla 12MP",
+      "bateria": "Até 19h de reprodução de vídeo",
+      "sistema": "iOS 15",
+      "resistencia": "IP68"
+    },
+    "caracteristicas": [
+      "ios",
+      "camera profissional",
+      "premium",
+      "resistente agua"
+    ],
+    "disponivel": true,
+    "avaliacao": 4.8,
+    "marca": "Apple"
+  },
+  {
+    "id": "PROD004",
+    "nome": "Smart TV LG 55' 4K UHD",
+    "categoria": "Eletrônicos",
+    "preco": 2199.99,
+    "descricao": "Smart TV 55 polegadas com resolução 4K, WebOS, HDR10 e acesso aos principais apps de streaming. Ideal para entretenimento em família.",
+    "especificacoes": {
+      "tamanho": "55 polegadas",
+      "resolucao": "4K UHD (3840x2160)",
+      "sistema": "webOS 22",
+      "hdr": "HDR10, HLG",
+      "conectividade": "Wi-Fi, Bluetooth, 3x HDMI, 2x USB",
+      "audio": "20W com Dolby Audio"
+    },
+    "caracteristicas": [
+      "4k",
+      "smart tv",
+      "streaming",
+      "grande",
+      "hdr"
+    ],
+    "disponivel": true,
+    "avaliacao": 4.4,
+    "marca": "LG"
+  },
+  {
+    "id": "PROD005",
+    "nome": "Tênis Nike Air Max SC",
+    "categoria": "Esportes e Fitness",
+    "preco": 299.99,
+    "descricao": "Tênis esportivo inspirado no icônico Air Max com design moderno e conforto excepcional para corrida e uso casual.",
+    "especificacoes": {
+      "material": "Sintético e mesh",
+      "solado": "Borracha com tecnologia Air",
+      "fechamento": "Cadarço",
+      "indicacao": "Corrida, caminhada, casual"
+    },
+    "caracteristicas": [
+      "corrida",
+      "confortavel",
+      "casual",
+      "respiravel"
+    ],
+    "disponivel": true,
+    "avaliacao": 4.2,
+    "marca": "Nike",
+    "tamanhos": [
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "cores": [
+      "preto",
+      "branco",
+      "azul"
+    ]
+  },
+  {
+    "id": "PROD006",
+    "nome": "Cafeteira Elétrica Philco PH16",
+    "categoria": "Casa e Cozinha",
+    "preco": 89.99,
+    "descricao": "Cafeteira elétrica com capacidade para 16 xícaras, sistema corta-pingos e jarra de vidro resistente. Perfeita para quem ama um bom café.",
+    "especificacoes": {
+      "capacidade": "1.2 litros (16 xícaras)",
+      "potencia": "550W",
+      "filtro": "Permanente removível",
+      "jarra": "Vidro temperado",
+      "sistema": "Corta-pingos automático"
+    },
+    "caracteristicas": [
+      "cafe",
+      "automatica",
+      "grande capacidade",
+      "vidro"
+    ],
+    "disponivel": true,
+    "avaliacao": 4.1,
+    "marca": "Philco"
+  },
+  {
+    "id": "PROD007",
+    "nome": "Kit Panelas Antiaderente 5 Peças",
+    "categoria": "Casa e Cozinha",
+    "preco": 199.99,
+    "descricao": "Conjunto completo de panelas antiaderentes com revestimento cerâmico, cabos ergonômicos e tampas de vidro. Ideal para todos os tipos de fogão.",
+    "especificacoes": {
+      "material": "Alumínio com revestimento cerâmico",
+      "pecas": "2 panelas, 1 frigideira, 1 leiteira, 1 caçarola",
+      "compatibilidade": "Todos os tipos de fogão",
+      "tampas": "Vidro temperado",
+      "cabos": "Baquelite ergonômico"
+    },
+    "caracteristicas": [
+      "antiaderente",
+      "ceramica",
+      "completo",
+      "ergonomico"
+    ],
+    "disponivel": true,
+    "avaliacao": 4.3,
+    "marca": "Tramontina"
+  },
+  {
+    "id": "PROD008",
+    "nome": "Micro-ondas Electrolux 20L",
+    "categoria": "Casa e Cozinha",
+    "preco": 459.99,
+    "descricao": "Micro-ondas com 20 litros de capacidade, 10 níveis de potência e receitas pré-programadas. Compacto e eficiente para sua cozinha.",
+    "especificacoes": {
+      "capacidade": "20 litros",
+      "potencia": "700W",
+      "niveis": "10 níveis de potência",
+      "programas": "8 receitas automáticas",
+      "painel": "Digital com timer",
+      "dimensoes": "45.9 x 35.2 x 26.2 cm"
+    },
+    "caracteristicas": [
+      "compacto",
+      "digital",
+      "automatico",
+      "pratico"
+    ],
+    "disponivel": true,
+    "avaliacao": 4.0,
+    "marca": "Electrolux"
+  },
+  {
+    "id": "PROD009",
+    "nome": "Bicicleta MTB Caloi Aro 29",
+    "categoria": "Esportes e Fitness",
+    "preco": 899.99,
+    "descricao": "Bicicleta mountain bike com quadro de alumínio, suspensão dianteira e 21 marchas. Ideal para trilhas e aventuras off-road.",
+    "especificacoes": {
+      "aro": "29 polegadas",
+      "quadro": "Alumínio",
+      "suspensao": "Dianteira",
+      "marchas": "21 velocidades Shimano",
+      "freios": "V-brake",
+      "peso": "15kg"
+    },
+    "caracteristicas": [
+      "mountain bike",
+      "aluminio",
+      "suspensao",
+      "21 marchas",
+      "trilha"
+    ],
+    "disponivel": true,
+    "avaliacao": 4.4,
+    "marca": "Caloi",
+    "cores": [
+      "preto",
+      "azul",
+      "vermelho"
+    ]
+  },
+  {
+    "id": "PROD010",
+    "nome": "Camiseta Básica Cotton",
+    "categoria": "Roupas e Acessórios",
+    "preco": 39.99,
+    "descricao": "Camiseta básica de algodão 100%, confortável e versátil para o dia a dia. Disponível em várias cores e tamanhos.",
+    "especificacoes": {
+      "material": "100% Algodão",
+      "modelagem": "Regular fit",
+      "gola": "Careca",
+      "lavagem": "Máquina até 40°C"
+    },
+    "caracteristicas": [
+      "algodao",
+      "basica",
+      "confortavel",
+      "versatil"
+    ],
+    "disponivel": true,
+    "avaliacao": 4.2,
+    "marca": "Hering",
+    "tamanhos": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "cores": [
+      "branco",
+      "preto",
+      "azul",
+      "cinza",
+      "verde"
+    ]
+  },
+  {
+    "id": "PROD011",
+    "nome": "Fone de Ouvido JBL Tune 510BT",
+    "categoria": "Eletrônicos",
+    "preco": 189.99,
+    "descricao": "Fone de ouvido wireless com tecnologia JBL Pure Bass, 40 horas de bateria e conectividade Bluetooth 5.0. Som de qualidade profissional.",
+    "especificacoes": {
+      "conectividade": "Bluetooth 5.0",
+      "bateria": "40 horas",
+      "drivers": "32mm",
+      "resposta": "20Hz - 20kHz",
+      "microfone": "Integrado para chamadas",
+      "peso": "160g"
+    },
+    "caracteristicas": [
+      "wireless",
+      "bluetooth",
+      "bateria longa",
+      "bass",
+      "leve"
+    ],
+    "disponivel": true,
+    "avaliacao": 4.3,
+    "marca": "JBL",
+    "cores": [
+      "preto",
+      "branco",
+      "azul"
+    ]
+  },
+  {
+    "id": "PROD012",
+    "nome": "Mouse Gamer Logitech G203",
+    "categoria": "Eletrônicos",
+    "preco": 149.99,
+    "descricao": "Mouse gamer com sensor óptico de 8000 DPI, 6 botões programáveis e iluminação RGB personalizável. Perfeito para jogos e trabalho.",
+    "especificacoes": {
+      "sensor": "Óptico 8000 DPI",
+      "botoes": "6 botões programáveis",
+      "iluminacao": "RGB LIGHTSYNC",
+      "cabo": "1.8m",
+      "compatibilidade": "Windows, Mac, Linux"
+    },
+    "caracteristicas": [
+      "gamer",
+      "dpi alto",
+      "programavel",
+      "rgb",
+      "precisao"
+    ],
+    "disponivel": true,
+    "avaliacao": 4.6,
+    "marca": "Logitech"
+  },
+  {
+    "id": "PROD013",
+    "nome": "Notebook Gamer Acer Nitro 5",
+    "categoria": "Eletrônicos",
+    "preco": 4999.99,
+    "descricao": "Notebook gamer com placa de vídeo dedicada RTX 3050, processador AMD Ryzen 5 e tela de 144Hz. Ideal para jogos e aplicações pesadas.",
+    "especificacoes": {
+      "processador": "AMD Ryzen 5 5600H",
+      "memoria": "16GB DDR4",
+      "armazenamento": "512GB SSD",
+      "placa_video": "NVIDIA RTX 3050 4GB",
+      "tela": "15.6' Full HD 144Hz",
+      "sistema": "Windows 11 Home"
+    },
+    "caracteristicas": [
+      "gamer",
+      "rtx",
+      "144hz",
+      "ryzen",
+      "ssd rapido"
+    ],
+    "disponivel": true,
+    "avaliacao": 4.5,
+    "marca": "Acer"
+  },
+  {
+    "id": "PROD014",
+    "nome": "Livro 'Clean Code' - Robert Martin",
+    "categoria": "Livros",
+    "preco": 89.99,
+    "descricao": "Guia essencial sobre como escrever código limpo e manutenível. Leitura obrigatória para desenvolvedores que querem aprimorar suas habilidades.",
+    "especificacoes": {
+      "autor": "Robert C. Martin",
+      "editora": "Alta Books",
+      "paginas": "424 páginas",
+      "idioma": "Português",
+      "formato": "Capa comum",
+      "isbn": "9788576082675"
+    },
+    "caracteristicas": [
+      "programacao",
+      "desenvolvimento",
+      "clean code",
+      "tecnico"
+    ],
+    "disponivel": true,
+    "avaliacao": 4.8,
+    "marca": "Alta Books"
+  },
+  {
+    "id": "PROD015",
+    "nome": "Air Fryer Mondial 4L",
+    "categoria": "Casa e Cozinha",
+    "preco": 259.99,
+    "descricao": "Fritadeira elétrica sem óleo com capacidade para 4 litros, 7 programas automáticos e painel digital. Cozinha de forma mais saudável.",
+    "especificacoes": {
+      "capacidade": "4 litros",
+      "potencia": "1500W",
+      "temperatura": "80°C a 200°C",
+      "programas": "7 pré-definidos",
+      "painel": "Digital touch",
+      "timer": "Até 60 minutos"
+    },
+    "caracteristicas": [
+      "air fryer",
+      "sem oleo",
+      "saudavel",
+      "automatica",
+      "digital"
+    ],
+    "disponivel": true,
+    "avaliacao": 4.4,
+    "marca": "Mondial"
+  },
+  {
+    "id": "TESTE_001",
+    "nome": "Produto Teste Embeddings",
+    "categoria": "teste",
+    "preco": 199.99,
+    "descricao": "Produto para testar persistência e embeddings",
+    "especificacoes": {
+      "cor": "azul",
+      "peso": "1kg"
+    },
+    "disponivel": true
+  },
+  {
+    "id": "teste-pinecone-001",
+    "nome": "Smartphone Teste Pinecone",
+    "categoria": "smartphone",
+    "preco": 999.99,
+    "descricao": "Produto criado para testar persistência no Pinecone",
+    "especificacoes": {
+      "cor": "azul",
+      "memoria": "128GB"
+    },
+    "disponivel": true
+  }
+]
