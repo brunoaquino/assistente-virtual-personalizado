@@ -189,14 +189,18 @@ curl -X POST "http://localhost:8000/chat" \
 
 ## 🔌 API Endpoints
 
-### **Chat e Conversação**
+O sistema oferece uma API RESTful completa com 13 endpoints funcionais organizados em 5 categorias principais.
+
+### **Documentação Completa**
+
+📖 **Para documentação detalhada de todas as APIs, consulte:** [API_DOCUMENTATION.md](API_DOCUMENTATION.md)
+
+### **Principais Endpoints**
 
 - `POST /chat` - Conversa com o assistente
-- `GET /historico/{usuario_id}` - Histórico de conversas
+- `GET /health` - Status do sistema
 - `GET /estatisticas` - Estatísticas do sistema
-
-### **Produtos**
-
+- `GET /buscar` - Busca de produtos
 - `GET /produtos` - Lista todos os produtos
 - `POST /produtos` - Adiciona novo produto
 - `PUT /produtos/{produto_id}` - Atualiza produto
